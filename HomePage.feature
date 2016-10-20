@@ -1,7 +1,10 @@
 Feature: Home page
-As a user, I am very first to this website
-I will check the title of the website
-I will explore the website a little and can always be back to the home page
+/*
+ * User Story:
+ * As a user, I am very first to this website 
+ * I will check the title of the website
+ * I will explore the website a little and can always be back to the home page
+ */
 
 	Scenario: Home page title
 		Given a Firefox browser
@@ -14,9 +17,12 @@ I will explore the website a little and can always be back to the home page
               Then I should be back to the home page
 
 Feature: Log in
-As a user, I always need to login to this website
-If I have typed right username and password, i should be able to login
-Also there are some cases that I might fail to login
+/*
+ * User Story:
+ * As a user, I always need to login to this website
+ * If I have typed right username and password, i should be able to login
+ * Also there are some cases that I might fail to login
+ */
 
   Scenario: login success
         Given a login page
@@ -35,11 +41,13 @@ Also there are some cases that I might fail to login
 
 
 Feature: Shopping cart
-As a e-commercial website, shopping cart is quite a vital feature
-As a user, I will add my preferred product to the shopping cart,
-and I will update the shopping cart such as remove items
-or update the quantity of the item
-
+/* 
+ * User Story:
+ * As a e-commercial website, shopping cart is quite a vital feature
+ * As a user, I will add my preferred product to the shopping cart,
+ * and I will update the shopping cart such as remove items
+ * or update the quantity of the item
+ */
 
     Scenario: add to shopping cart
         Given a product page
