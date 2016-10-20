@@ -1,5 +1,5 @@
 Feature: Home page
-/*
+/**
  * User Story:
  * As a user, I am very first to this website 
  * I will check the title of the website
@@ -17,7 +17,7 @@ Feature: Home page
               Then I should be back to the home page
 
 Feature: Log in
-/*
+/**
  * User Story:
  * As a user, I always need to login to this website
  * If I have typed right username and password, i should be able to login
@@ -41,7 +41,7 @@ Feature: Log in
 
 
 Feature: Shopping cart
-/* 
+/**
  * User Story:
  * As a e-commercial website, shopping cart is quite a vital feature
  * As a user, I will add my preferred product to the shopping cart,
