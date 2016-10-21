@@ -7,9 +7,9 @@ Feature 1: Log in
  If I have typed right username and password, i should be able to login
  Also there are some cases that I might fail to login
  
-  Scenario: login success
-  Scenario: login fail with wrong username or password
-  Scenario: login fail with empty username
+   Scenario: login success
+   Scenario: login fail with wrong username or password
+   Scenario: login fail with empty username
 
 Feature 2: Shopping cart
 
