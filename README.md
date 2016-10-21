@@ -1,5 +1,8 @@
 Deliverable3 Web Testing Yue Li (yul134)
 
+In this repository, it contains a feature folder which have all the .feature file, and one stepdefinition file and one test runner file. Since it is a e-commercial website, I devide the user story into shopping cart, login and search items. I try to test different cases just as I am shopping online in real life.
+I have several issues solved with the help of Prof Iser, which is the class configuration, and test failure, which is caused by the organization of the feature file and the step defination file. However, so far, I still have one problem not solved that the driver's issue.
+
 Feature 1: Log in
 
  User Story:
